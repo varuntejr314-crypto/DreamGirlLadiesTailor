@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Tailor</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Smart Tailor</h1>
+    <p>Book Your Stitching Slot Online</p>
+</header>
+
+<section class="dress-section">
+    <h2>Dress Types</h2>
+
+    <div class="cards">
+        <div class="card">Plain Blouse</div>
+        <div class="card">Lining Blouse</div>
+        <div class="card">Katori Lining Blouse</div>
+        <div class="card">Plain Top</div>
+        <div class="card">Lining Top</div>
+        <div class="card">Half Lining Suit</div>
+        <div class="card">Full Lining Suit</div>
+        <div class="card">Long Frock</div>
+        <div class="card">Half Saree Set</div>
+        <div class="card">School Uniform</div>
+    </div>
+</section>
+
+<section class="booking">
+    <h2>Book a Slot</h2>
+
+    <form id="bookingForm">
+        <input type="text" id="name" placeholder="Customer Name" required>
+
+        <input type="tel" id="phone" placeholder="Mobile Number" required>
+
+        <select id="dress" required>
+            <option value="">Select Dress Type</option>
+            <option>Plain Blouse</option>
+            <option>Lining Blouse</option>
+            <option>Katori Lining Blouse</option>
+            <option>Plain Top</option>
+            <option>Lining Top</option>
+            <option>Half Lining Suit</option>
+            <option>Full Lining Suit</option>
+            <option>Long Frock</option>
+            <option>Half Saree Set</option>
+            <option>School Uniform</option>
+        </select>
+
+        <input type="date" id="date" required>
+
+        <select id="time" required>
+            <option value="">Select Time</option>
+            <option>09:00 AM</option>
+            <option>10:00 AM</option>
+            <option>11:00 AM</option>
+            <option>12:00 PM</option>
+            <option>02:00 PM</option>
+            <option>03:00 PM</option>
+            <option>04:00 PM</option>
+            <option>05:00 PM</option>
+        </select>
+
+        <button type="submit">Book Now</button>
+    </form>
+
+    <p id="success"></p>
+</section>
+
+<section class="contact">
+    <h2>Contact Us</h2>
+
+    <p><strong>Shop Name:</strong> Smart Tailor</p>
+    <p><strong>Phone:</strong> +91 9876543210</p>
+    <p><strong>Address:</strong> Your Shop Address Here</p>
+
+    <a href="https://wa.me/919876543210" target="_blank">
+        WhatsApp Us
+    </a>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -8,7 +8,7 @@ document.getElementById("bookingForm").addEventListener("submit", function(e) {
     const time = document.getElementById("time").value;
 
     const message =
-`New Tailoring Booking
+`New Tailoring Slot Booking
 
 Name: ${name}
 Phone: ${phone}

@@ -16,7 +16,7 @@ Dress Type: ${dress}
 Date: ${date}
 Time: ${time}`;
 
-    const whatsappNumber = "919876543210"; // Replace with your WhatsApp number
+    const whatsappNumber = "919966701300"; // Replace with your WhatsApp number
 
     const whatsappURL =
 `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
